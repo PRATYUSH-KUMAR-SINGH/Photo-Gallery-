@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.sec1{
+    background-image: url(bg.jpg);
+    min-height: 100vh;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+     display: flex;
+    justify-content: center; /* horizontal center */
+    
+}
+.intro-box {
+  text-align: center;
+}
+.intro{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 64px;
+    font-weight: bolder;
+    color: #f5f1e8;
+    margin-top: 15%;
+    text-shadow:
+    0 4px 12px rgba(233, 39, 39, 0.6),
+    0 0 25px rgba(255, 200, 120, 0.4);
+}
+.btn{
+    display: inline-block;
+  margin-top: 30px;
+  padding: 14px 40px;
+  border: 2px solid #f5f1e8;
+  color: #f5f1e8;
+  text-decoration: none;
+  font-size: 18px;
+  letter-spacing: 2px;
+  transition: 0.3s ease;
+  
+}
+.btn:hover {
+  background: #f5f1e8;
+  color: #000;
+  text-shadow: #21c55b;
+}
+.categories {
+  background: #0e0e0e;
+  color: white;
+  padding: 80px 10%;
+  text-align: center;
+}
+
+.categories h2 {
+  font-size: 42px;
+  margin-bottom: 40px;
+  letter-spacing: 3px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 25px;
+}
+
+.card {
+  padding: 60px 20px;
+  border: 1px solid rgba(255,255,255,0.2);
+  font-size: 22px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-family:monospace;
+    font-style: italic;
+}
+.card:hover {
+  background: #ecf5e8;
+  color: rgb(19, 224, 60);
+  transform: translateY(-10px);
+  border-radius: 25%;
+  scale: 1.1 1.2 1.2;
+}
+html{
+    scroll-behavior: smooth;
+}
+.gallery-header {
+  background: black;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+.gallery-grid {
+  background: #0e0e0e;
+  padding: 40px 8%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  border-radius: 10px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.gallery-grid img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 30px rgba(255, 255, 255, 0.5);
+
+}
+#nat{
+    background-image: url(nat.jpg);
+    background-size: cover;
+}
+#str{
+    background-image: url(str.webp);
+    background-size: cover;
+}
+#car{
+    background-image: url(car.webp);
+    background-size: cover;
+}
+#tra{
+    background-image: url(tra.jpg);
+    background-size: cover;
+}
+#cre{
+    background-image: url(cre.webp);
+    background-size: cover;
+}
