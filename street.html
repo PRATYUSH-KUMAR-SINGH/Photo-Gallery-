@@ -19,6 +19,14 @@
   <img src="images/street/4.jpg">
   
 </section>
+<script>
+document.querySelector('.gallery-grid').addEventListener('click', function(e) {
+  if (e.target.tagName === 'IMG') {
+    window.open(e.target.src, '_blank');
+  }
+});
+</script>
 
 </body>
 </html>
+
