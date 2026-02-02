@@ -20,6 +20,14 @@
   <img src="images/travel/5.jpg">
   <img src="images/travel/6.jpg">
 </section>
+<script>
+document.querySelector('.gallery-grid').addEventListener('click', function(e) {
+  if (e.target.tagName === 'IMG') {
+    window.open(e.target.src, '_blank');
+  }
+});
+</script>
 
 </body>
 </html>
+
