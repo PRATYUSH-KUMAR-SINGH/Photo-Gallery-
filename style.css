@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .sec1{
-    background-image: url(bg.jpg);
+    background-image: url(./bg.jpg);
     min-height: 100vh;
     position: relative;
     background-position: center;
@@ -114,7 +114,7 @@ html{
 
 }
 #nat{
-    background-image: url(nat.jpg);
+    background-image: url(./nat.jpg);
     background-size: cover;
 }
 #str{
@@ -132,4 +132,5 @@ html{
 #cre{
     background-image: url(cre.webp);
     background-size: cover;
+
 }
