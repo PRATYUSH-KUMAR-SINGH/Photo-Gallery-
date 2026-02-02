@@ -7,12 +7,13 @@
     background-image: url(./bg.jpg);
     height: 100vh;
     
-    position: relative;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-     display: flex;
-    justify-content: center; /* horizontal center */
+    pbackground-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
     
 }
 .intro-box {
@@ -135,5 +136,6 @@ html{
     background-size: cover;
 
 }
+
 
 
