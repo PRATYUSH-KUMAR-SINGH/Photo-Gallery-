@@ -6,6 +6,7 @@
 .sec1{
     background-image: url(./bg.jpg);
     min-height: 100vh;
+    min-height: 100svh;
     position: relative;
     background-position: center;
     background-size: cover;
@@ -134,3 +135,4 @@ html{
     background-size: cover;
 
 }
+
